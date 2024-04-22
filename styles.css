@@ -1,5 +1,5 @@
 /* Navigation */
-nav {list-style-type: none; text-align: center; overflow: hidden; border-bottom: 2px solid red; background-color: #2b2222;}
+nav {list-style-type: none; text-align: center; overflow: hidden; border-bottom: 2px #753030; background-color: #2b2222;}
 
 /* Navbar links */
 nav h1 { float: left; display: inline-block; color: #c0afa1;}
