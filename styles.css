@@ -1,4 +1,20 @@
-h1 {
-  background-color: black;
+nav {
+  color: #B71C1C;
+}
+
+a {
+	color: #B71C1C;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 { 
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF;
 }
 
