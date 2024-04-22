@@ -6,7 +6,7 @@ nav h1 { float: left; display: inline-block; color: #c0afa1;}
  
 nav li { float: center; display: inline-block; padding: 20px;}
 
-nav a { color: #753030; text-decoration: none;}
+nav a { color: #753030; font-size: 20px; text-decoration: none;}
 
 nav a:hover {background-color: #5e4265; color: #c0afa1;} 
 
