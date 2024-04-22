@@ -2,11 +2,11 @@
 nav {list-style-type: none; position: fixed; top: 0; left: 0; text-align: center; overflow: hidden; border-bottom: 2px solid #753030; background-color: #2b2222;}
 
 /* Navbar links */
-nav h1 { float: left; font-size: 20px; display: inline-block; color: #c0afa1;}
+nav h1 { float: left; font-size: 20px; font-weight: 900; display: inline-block; color: #c0afa1;}
  
 nav li { float: center; display: inline-block; padding: 10px;}
 
-nav a { color: #753030; font-size: 35px; text-decoration: none;}
+nav a { color: #753030; font-size: 25px; font-weight: 900; text-decoration: none;}
 
 nav a:hover {background-color: #5e4265; color: #c0afa1;} 
 
