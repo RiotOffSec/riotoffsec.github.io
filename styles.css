@@ -1,9 +1,20 @@
-nav {color: #B71C1C;}
+/* Navigation */
+nav { overflow: hidden; background-color: #000000;}
 
-a {color: #B71C1C;}
+/* Navbar links */
+nav a { float: left; display: block; color: #B71C1C; text-align: center; padding: 14px 16px; text-decoration: none;}
+
+nav a:hover {background-color: #BDBDBD; color: #FFFFFF;} 
+
+/* NavClosed */
 
 body {background-color: #000000;}
 
-h1 {color: #FFFFFF;}
+/* Text */
 
-p {color: #FFFFFF;}
+h1 { color: #FFFFFF;}
+
+p { color: #FFFFFF;}
+
+/* TextClosed */
+
