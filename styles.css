@@ -1,8 +1,12 @@
 /* Navigation */
-nav { overflow: hidden; background-color: #000000;}
+nav {list-style-type: none; text-align: center; overflow: hidden; border-bottom: 2px solid red; background-color: #000000;}
 
 /* Navbar links */
-nav a { float: left; display: block; color: #B71C1C; text-align: center; padding: 14px 16px; text-decoration: none;}
+nav h1 { float: left; display: inline-block; color: #FFFFFF;}
+ 
+nav li { float: center; display: inline-block; padding: 20px;}
+
+nav a { color: #B71C1C; text-decoration: none;}
 
 nav a:hover {background-color: #BDBDBD; color: #FFFFFF;} 
 
@@ -12,9 +16,7 @@ body {background-color: #000000;}
 
 /* Text */
 
-h1 { color: #FFFFFF;}
-
-p { color: #FFFFFF;}
+p { text-align: center; color: #FFFFFF;}
 
 /* TextClosed */
 
