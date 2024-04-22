@@ -1,27 +1,27 @@
 /* Navigation */
-nav {list-style-type: none; text-align: center; overflow: hidden; border-bottom: 2px solid red; background-color: #000000;}
+nav {list-style-type: none; text-align: center; overflow: hidden; border-bottom: 2px solid red; background-color: #2b2222;}
 
 /* Navbar links */
-nav h1 { float: left; display: inline-block; color: #FFFFFF;}
+nav h1 { float: left; display: inline-block; color: #c0afa1;}
  
 nav li { float: center; display: inline-block; padding: 20px;}
 
-nav a { color: #B71C1C; text-decoration: none;}
+nav a { color: #753030; text-decoration: none;}
 
-nav a:hover {background-color: #BDBDBD; color: #FFFFFF;} 
+nav a:hover {background-color: #5e4265; color: #c0afa1;} 
 
 /* NavClosed */
 
-body {background-color: #000000;}
+body {background-color: #2b2222;}
 
 /* Text */
 
-p { text-align: center; color: #FFFFFF;}
+p { text-align: center; color: #c0afa1;}
 
 /* TextClosed */
 
 /*color pallette*/
-/*#e6e6e6*/
+/*#2b2222*/
 /*#753030*/
 /*#4e2a38*/
 /*#5e4265*/
