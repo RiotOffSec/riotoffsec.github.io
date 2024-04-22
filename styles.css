@@ -4,7 +4,7 @@ nav {list-style-type: none; position: fixed; top: 0; left: 0; right:0; text-alig
 /* Navbar links */
 nav h1 { float: left; padding-left: 10px; font-size: 30px; font-weight: 1000; display: inline-block; color: #c0afa1;}
  
-nav li { float: center; display: inline-block; padding: 10px; padding-top: 30px; }
+nav li { float: center; display: inline-block; padding: 10px; padding-top: 25px; }
 
 nav a { color: #c0afa1; font-size: 30px; font-weight: 1000; text-decoration: none;}
 
