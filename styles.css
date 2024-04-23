@@ -24,7 +24,9 @@ p { padding-top: 250px; text-align: center; color: #c0afa1;}
 
 footer { height: 50px; bottom: 0; left: 0; right: 0; background-color: #753030; }
 
-footer p {text-align: center; display: inline; color: #ad090e; 
+footer p { text-align: center; display: inline; color: #ad090e; 
+    
+footer a { text-align: left; display: inline; color: #ad090e;}
 
 /* Footer Closed */
 
