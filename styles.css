@@ -16,14 +16,15 @@ body {background-color: #2b2222;}
 
 /* Text */
 
-p { padding-top: 350px; text-align: center; color: #c0afa1;}
+p { padding-top: 250px; text-align: center; color: #c0afa1;}
 
 /* TextClosed */
 
 /* Footer */
 
-footer { color: #753030; background-color: #5E4265; display: block; bottom: 0; left: 0; right: 0;}
+footer { background-color: #753030; color: c0afa1; display: block; position: fixed; bottom: 0; left: 0; right: 0; }
 
+footer a {text-align: center; color: #5e4265; }
 /* Footer Closed */
 
 /*color pallette*/
