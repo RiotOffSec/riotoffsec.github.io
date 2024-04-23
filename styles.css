@@ -22,9 +22,9 @@ p { padding-top: 250px; text-align: center; color: #c0afa1;}
 
 /* Footer */
 
-footer { background-color: #753030; color: c0afa1; display: block; position: fixed; height: 50px; bottom: 0; left: 0; right: 0; }
+footer { background-color: #753030; display: block; position: fixed; height: 50px; bottom: 0; left: 0; right: 0; }
 
-footer a {text-align: center; color: #c0afa1; }
+footer p {text-align: center; color: #c0afa1; }
 /* Footer Closed */
 
 /*color pallette*/
