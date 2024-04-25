@@ -2,9 +2,9 @@
 nav {list-style-type: none; position: fixed; top: 0; left: 0; right:0; text-align: center; overflow: hidden; border-bottom: 2px solid #753030; background-color: #2b2222;}
 
 /* Navbar links */
-nav h1 { float: left; padding-left: 10px; font-size: 30px; font-weight: 1500; display: inline-block; color: #c0afa1;}
- 
 nav li { float: center; display: inline-block; padding: 10px; padding-top: 25px; }
+
+nav h1 { float: left; padding-left: 10px; font-size: 30px; font-weight: 1500; display: inline-block; color: #c0afa1;}
 
 nav a { color: #c0afa1; font-size: 30px; font-weight: 1000; text-decoration: none;}
 
@@ -12,9 +12,11 @@ nav a:hover {background-color: #5e4265; color: #c0afa1;}
 
 /* NavClosed */
 
-body {background-color: #2b2222;}
+body { background-color: #2b2222;}
 
 /* Text */
+
+main { min-height: 120vh; } 
 
 p { padding-top: 250px; text-align: center; color: #c0afa1;}
 
@@ -23,18 +25,22 @@ p { padding-top: 250px; text-align: center; color: #c0afa1;}
 /* Footer */
 
 /* I will deal with this footer later */
-footer { position: fixed; height: 15px; bottom: 0; left: 0; right: 0; background-color: #753030; }
+footer { display: flex; height: 4vh; position: fixed; left: 0; right: 0; bottom: 0; justify-content: center; align-items: center; background-color: #753030 }
 
-footer p { text-align: center; color: #ad090e; }
+.since { color: #c0afa1; }
+
+.sincelink { padding-left: 25px; color: #c0afa1; }
     
-footer a { text-align: left; color: #ad090e;}
+.sincelink a{ color: #c0afa1; }
+
+.sincelink a:hover { color: #5e4265; }
 
 /* Footer Closed */
 
 /*color pallette*/
-/*#2b2222*/
-/*#753030*/
+/*#2b2222 Dark brick brown*/
+/*#753030 Coral Red*/
 /*#4e2a38*/
-/*#5e4265*/
-/*c0afa1*/
-/*#ad090e*/
+/*#5e4265 Purpleish*/
+/*c0afa1 Creamy White*/
+/*#ad090e Bright Red*/
