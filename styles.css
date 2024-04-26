@@ -11,7 +11,7 @@ nav h1 {margin-right: auto; font-size: 30px; font-weight: 1500; display: block; 
 
 .menu a:hover {background-color: #5e4265; color: #c0afa1;} 
 
-
+@media (max-width:768px" { H1 { padding: 10px; } }
 
 /* NavClosed */
 
