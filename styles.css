@@ -24,6 +24,9 @@ main { justify-content: center; align-items: center; }
 
 p.round2 { display: block; text-align: center; font-size: 20px; color: #c0afa1; border: 3px solid #753030; border-radius: 12px; width: 500px;  margin: auto; padding: 5px; background-color: #5e4265;}
 
+p a { color: #c0afa1; }
+
+p a:hover { color: #5e4265 }
 /* TextClosed */
 
 /* Footer */
