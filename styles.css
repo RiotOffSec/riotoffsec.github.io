@@ -68,9 +68,9 @@ main {
     font-size: 30px;
     font-weight: 1500;
     color: #c0afa1;
-
 }
- .rect {
+
+.rect {
     display: block;
     text-align: center;
     color: #c0afa1;
@@ -96,25 +96,25 @@ main {
     border: 3px solid #753030;
     border-radius: 12px;
 }
-.passrec details {
-    user-select: none;
-}
 
-.passrec details>summary span.icon {
-  width: 24px;
-  height: 24px;
-  transition: all 0.3s;
-  
-}
+    .passrec details {
+        user-select: none;
+    }
 
-.passrec details[open] summary span.icon {
-  transform: rotate(180deg);
-}
+        .passrec details > summary span.icon {
+            width: 24px;
+            height: 24px;
+            transition: all 0.3s;
+        }
 
-.passrec summary {
-  text-align:center;
-  cursor: pointer;
-}
+        .passrec details[open] summary span.icon {
+            transform: rotate(180deg);
+        }
+
+    .passrec summary {
+        text-align: center;
+        cursor: pointer;
+    }
 
 .webapp {
     margin-bottom: 10px;
@@ -270,7 +270,7 @@ main {
         text-align: center;
         cursor: pointer;
     }
-    /*You can resume, I'll have to continue later. */
+/*You can resume, I'll have to continue later. */
 /*Dropdown Menus End*/
 p.round2 {
     display: block;
@@ -286,30 +286,29 @@ p.round2 {
     padding-bottom: 20px;
     background-color: #5e4265;
 }
-    /*PDF*/
+/*PDF*/
 
 .pdflink {
     text-align: center;
 }
+
     .pdflink a {
         color: #c0afa1;
- 
     }
 
         .pdflink a:hover {
             color: #5e4265;
         }
-    
-   /*Freelance*/
-    p a {
+
+/*Freelance*/
+p a {
     color: #c0afa1;
-   
 }
 
     p a:hover {
         color: #753030
     }
-    /*Freelance closed*/
+/*Freelance closed*/
 /* TextClosed */
 
 /* Footer */
