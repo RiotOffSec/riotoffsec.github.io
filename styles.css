@@ -48,7 +48,7 @@ nav {
 /* NavClosed */
 
 
-/* Text */
+/* Text <wherw is it, i only have style here, is it in here */
 
 body {
     background-color: #2b2222;
@@ -117,7 +117,8 @@ main {
     }
 
         .passrec summary h2 {
-            font-size: 30px;
+            display: inline;
+            font-size: 20px;
             font-weight: 1500;
         }
 
@@ -151,6 +152,11 @@ main {
         text-align: center;
         cursor: pointer;
     }
+        .webapp summary h2 {
+            display: inline;
+            font-size: 20px;
+            font-weight: 1500;
+        }
 
 .smallnetad {
     margin-bottom: 10px;
@@ -182,6 +188,11 @@ main {
         text-align: center;
         cursor: pointer;
     }
+        .smallnetad summary h2 {
+             display: inline;
+            font-size: 20px;
+             font-weight: 1500;
+           }
 
 .externalpt {
     margin-bottom: 10px;
@@ -213,6 +224,11 @@ main {
         text-align: center;
         cursor: pointer;
     }
+        .externalpt summary h2 {
+            display: inline;
+            font-size: 20px;
+            font-weight: 1500;
+        }
 
 .internalpt {
     margin-bottom: 10px;
@@ -244,6 +260,11 @@ main {
         text-align: center;
         cursor: pointer;
     }
+        .internalpt summary h2 {
+            display: inline;
+            font-size: 20px;
+            font-weight: 1500;
+        }
 
 .reportwriting {
     margin-bottom: 20px;
@@ -275,6 +296,11 @@ main {
         text-align: center;
         cursor: pointer;
     }
+        .reportwriting summary h2 {
+            display: inline;
+            font-size: 20px;
+            font-weight: 1500;
+        }
 /*You can resume, I'll have to continue later. */
 /*Dropdown Menus End*/
 p.round2 {
