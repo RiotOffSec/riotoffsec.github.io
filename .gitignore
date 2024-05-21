@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/riotoffsec.github.io/FileContentIndex/405ba2f5-4c60-4616-9d0b-5e316ff256cf.vsidx
+/.vs/riotoffsec.github.io/FileContentIndex/88e462f6-a3e8-43cd-8119-2d6a1a8f51be.vsidx
+/.vs/riotoffsec.github.io/v17/.wsuo
+/.vs/riotoffsec.github.io/v17/DocumentLayout.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+*.vsidx
