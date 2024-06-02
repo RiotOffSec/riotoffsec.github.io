@@ -6,21 +6,31 @@ nav {
     left: 0;
     right: 0;
     overflow: hidden;
-    border-bottom: 3px solid #753030;
-    background-color: #2b2222;
+    background-color: #141114;
     margin-top: -20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
     /* Navbar links */
 
-    nav h1 {
-        margin-right: auto;
-        font-size: 30px;
-        font-weight: 1500;
-        display: block;
-        color: #c0afa1;
-    }
+h1 {
+    margin-right: auto;
+    font-size: 30px;
+    font-weight: 1500;
+    display: block;
+    color: #c0afa1;
+    text-decoration: none;
+}
+        h1 a {
+            padding: 10px;
+           
+        }
+            h1 a:hover {
+                text-decoration: none;
+                background-color: #753030;
+                color: #c0afa1;
+
+            }
 
 .menu {
     list-style-type: none;
@@ -39,7 +49,7 @@ nav {
     }
 
         .menu a:hover {
-            background-color: #5e4265;
+            background-color: #753030;
             color: #c0afa1;
         }
 
@@ -48,11 +58,12 @@ nav {
 /* NavClosed */
 
 
-/* Text <wherw is it, i only have style here, is it in here */
+/* */
 
 body {
-    background-color: #2b2222;
-    min-height: 200vh;
+    margin-top: 20px;
+    background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%);
+    min-height: fit-content;
     padding-top: 90px;
 }
 
@@ -61,7 +72,7 @@ main {
     align-items: center;
 }
 
-/*Make a header css here and just  steal font from h1 okie dlkie how do i make it know its at the services header n not nav1*/
+/*Services Page*/
 
 .rect header {
     margin-right: auto;
@@ -74,13 +85,13 @@ main {
     display: block;
     text-align: center;
     color: #c0afa1;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
-    background-color: #5e4265;
+    background-color: #2b222b;
 }
 
 /*Dropdown Menus*/
@@ -93,7 +104,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -130,7 +141,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -166,7 +177,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -202,7 +213,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -238,7 +249,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -274,7 +285,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -301,21 +312,22 @@ main {
             font-size: 20px;
             font-weight: 1500;
         }
-/*You can resume, I'll have to continue later. */
+
 /*Dropdown Menus End*/
 p.round2 {
     display: block;
     text-align: center;
     font-size: 20px;
     color: #c0afa1;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 90px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #5e4265;
+    background-color: #2b222b;
 }
 /*PDF*/
 
@@ -328,7 +340,7 @@ p.round2 {
     }
 
         .pdflink a:hover {
-            color: #5e4265;
+            color: #753030;
         }
 
 /*Freelance*/
@@ -340,13 +352,13 @@ p a {
         color: #753030
     }
 /*Freelance closed*/
-/* TextClosed */
+
+/*Service Page End*/
 
 /* Footer */
 
-
-/* I will deal with this footer later */
 footer {
+    margin-top: 125px;
     display: flex;
     height: 4vh;
     position: fixed;
@@ -355,7 +367,7 @@ footer {
     bottom: 0;
     justify-content: center;
     align-items: center;
-    background-color: #753030
+    background-color: #141114;
 }
 
 .since {
@@ -372,7 +384,7 @@ footer {
     }
 
         .sincelink a:hover {
-            color: #5e4265;
+            color: #753030;
         }
 
 /* Footer Closed */
@@ -380,7 +392,8 @@ footer {
 /*color pallette*/
 /*#2b2222 Dark brick brown*/
 /*#753030 Coral Red*/
-/*#4e2a38*/
+/*#4e2a38 Brick reddish*/
 /*#5e4265 Purpleish*/
 /*c0afa1 Creamy White*/
 /*#ad090e Bright Red*/
+/*#141114 Dark Grey*/
