@@ -53,6 +53,7 @@ body {
     margin-top: 20px;
     background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%);
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100%;
     padding-top: 90px;
 }
