@@ -51,7 +51,8 @@ nav {
 
 body {
     margin-top: 20px;
-    background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%);
+    background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%, no-repeat);
+    background-size: cover;
     min-height: fit-content;
     padding-top: 90px;
 }
