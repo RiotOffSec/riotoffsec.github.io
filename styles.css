@@ -6,10 +6,9 @@ nav {
     left: 0;
     right: 0;
     overflow: hidden;
-    border-bottom: 3px solid #753030;
-    background-color: #2b2222;
+    background-color: #141114;
     margin-top: -20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
     /* Navbar links */
@@ -39,7 +38,7 @@ nav {
     }
 
         .menu a:hover {
-            background-color: #5e4265;
+            background-color: #753030;
             color: #c0afa1;
         }
 
@@ -51,8 +50,9 @@ nav {
 /* Text <wherw is it, i only have style here, is it in here */
 
 body {
-    background-color: #2b2222;
-    min-height: 200vh;
+    margin-top: 20px;
+    background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%);
+    min-height: fit-content;
     padding-top: 90px;
 }
 
@@ -74,13 +74,13 @@ main {
     display: block;
     text-align: center;
     color: #c0afa1;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
-    background-color: #5e4265;
+    background-color: #2b222b;
 }
 
 /*Dropdown Menus*/
@@ -93,7 +93,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -130,7 +130,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -166,7 +166,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -202,7 +202,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -238,7 +238,7 @@ main {
     padding-bottom: 20px;
     width: 75%;
     display: block;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
 }
 
@@ -308,14 +308,14 @@ p.round2 {
     text-align: center;
     font-size: 20px;
     color: #c0afa1;
-    border: 3px solid #753030;
+    border: 3px solid #141114;
     border-radius: 12px;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #5e4265;
+    background-color: #2b222b;
 }
 /*PDF*/
 
@@ -355,7 +355,7 @@ footer {
     bottom: 0;
     justify-content: center;
     align-items: center;
-    background-color: #753030
+    background-color: #141114
 }
 
 .since {
@@ -372,7 +372,7 @@ footer {
     }
 
         .sincelink a:hover {
-            color: #5e4265;
+            color: #753030;
         }
 
 /* Footer Closed */
