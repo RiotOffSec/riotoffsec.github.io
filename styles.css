@@ -54,7 +54,7 @@ body {
     background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: fit-content;
+    min-height: auto;
     padding-top: 90px;
 }
 
