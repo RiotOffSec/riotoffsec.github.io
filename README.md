@@ -1,2 +1,2 @@
 # RiotSecurity
-Future website for Riot Security, WIP.
+Website in progress, working one idea at a time.
