@@ -12,15 +12,15 @@ nav {
 }
 
 
-.navheader h1 {
-    margin-right: auto;
-    font-size: 30px;
-    font-weight: 1500;
-    display: block;
-    color: #c0afa1;
-    padding: 10px;
-    text-decoration: none;
-}
+    .navheader h1 {
+        margin-right: auto;
+        font-size: 30px;
+        font-weight: 1500;
+        display: block;
+        color: #c0afa1;
+        padding: 10px;
+        text-decoration: none;
+    }
       
             .navheader h1 a:hover {
                 background-color: #753030;
