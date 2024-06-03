@@ -11,9 +11,8 @@ nav {
     padding-bottom: 5px;
 }
 
-    /* Navbar links */
 
-h1 {
+.navheader h1 {
     margin-right: auto;
     font-size: 30px;
     font-weight: 1500;
@@ -21,17 +20,18 @@ h1 {
     color: #c0afa1;
     text-decoration: none;
 }
-        h1 a {
+        .navheader h1 a {
             padding: 10px;
            
         }
-            h1 a:hover {
+            .navheader h1 a:hover {
                 text-decoration: none;
                 background-color: #753030;
                 color: #c0afa1;
 
             }
 
+/* Navbar links */
 .menu {
     list-style-type: none;
     display: flex;
@@ -53,12 +53,12 @@ h1 {
             color: #c0afa1;
         }
 
+/*Nav Links End*/
+
+/* Nav End */
 
 
-/* NavClosed */
-
-
-/* */
+/*Main Body*/
 
 body {
     min-height: 100vh;
@@ -72,16 +72,50 @@ main {
     align-items: center;
 }
 
+/*Main Body End*/
+
+/*Index/Home Page*/
+
+.welcomeinfo p.round2 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #c0afa1;
+    border: 3px solid #141114;
+    border-radius: 12px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2b222b;
+}
+
+    .welcomeinfo p a {
+        color: #c0afa1;
+    }
+
+        .welcome infop a:hover {
+            color: #753030
+        }
+
+/*Index/Home End*/
+
+/*About Page*/
+
+/*About End*/
+
 /*Services Page*/
 
-.rect header {
+.service header {
     margin-right: auto;
     font-size: 30px;
     font-weight: 1500;
     color: #c0afa1;
 }
 
-.rect {
+.service {
     display: block;
     text-align: center;
     color: #c0afa1;
@@ -96,6 +130,7 @@ main {
 
 /*Dropdown Info*/
 
+/*Passrec*/
 .passrec {
     margin-bottom: 10px;
     margin-left: auto;
@@ -132,7 +167,9 @@ main {
             font-size: 20px;
             font-weight: 1500;
         }
+/*Passrec End*/
 
+/*Webapp*/
 .webapp {
     margin-bottom: 10px;
     margin-left: auto;
@@ -168,7 +205,9 @@ main {
             font-size: 20px;
             font-weight: 1500;
         }
+/*Webapp End*/
 
+/*Smallnetad*/
 .smallnetad {
     margin-bottom: 10px;
     margin-left: auto;
@@ -204,7 +243,9 @@ main {
             font-size: 20px;
              font-weight: 1500;
            }
+/*Smallnetad End*/
 
+/*Externalpt*/
 .externalpt {
     margin-bottom: 10px;
     margin-left: auto;
@@ -240,7 +281,9 @@ main {
             font-size: 20px;
             font-weight: 1500;
         }
+/*Externalpt End*/
 
+/*Internalpt*/
 .internalpt {
     margin-bottom: 10px;
     margin-left: auto;
@@ -276,7 +319,9 @@ main {
             font-size: 20px;
             font-weight: 1500;
         }
+/*Internalpt End*/
 
+/*Reportwriting*/
 .reportwriting {
     margin-bottom: 20px;
     margin-left: auto;
@@ -312,10 +357,26 @@ main {
             font-size: 20px;
             font-weight: 1500;
         }
+/*Reportwriting End*/
 
 /*Dropdown Info End*/
 
-p.round2 {
+/*PDF*/
+.pdflink {
+    text-align: center;
+}
+
+    .pdflink a {
+        color: #c0afa1;
+    }
+
+        .pdflink a:hover {
+            color: #753030;
+        }
+/*PDF Closed*/
+
+/*Freelance*/
+.freelance p.round2 {
     display: block;
     text-align: center;
     font-size: 20px;
@@ -330,31 +391,20 @@ p.round2 {
     padding-bottom: 20px;
     background-color: #2b222b;
 }
-/*PDF*/
 
-.pdflink {
-    text-align: center;
-}
-
-    .pdflink a {
+    .freelance p a {
         color: #c0afa1;
     }
 
-        .pdflink a:hover {
-            color: #753030;
+        .freelance p a:hover {
+            color: #753030
         }
-
-/*Freelance*/
-p a {
-    color: #c0afa1;
-}
-
-    p a:hover {
-        color: #753030
-    }
-/*Freelance closed*/
+/*Freelance Closed*/
 
 /*Service Page End*/
+
+/*Contact Page*/
+/*Contact Page End*/
 
 /* Footer */
 
