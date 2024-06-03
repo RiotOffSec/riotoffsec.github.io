@@ -18,12 +18,10 @@ nav {
     font-weight: 1500;
     display: block;
     color: #c0afa1;
+    padding: 10px;
     text-decoration: none;
 }
-        .navheader h1 a {
-            padding: 10px;
-           
-        }
+      
             .navheader h1 a:hover {
                 background-color: #753030;
                 color: #c0afa1;
