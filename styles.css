@@ -61,6 +61,7 @@ h1 {
 /* */
 
 body {
+    height: 100%;
     margin-top: 20px;
     background: radial-gradient(circle, #141114 0%, #2b2222 50%, #141114 100%);
     background-repeat: no-repeat;
