@@ -94,7 +94,7 @@ main {
     background-color: #2b222b;
 }
 
-/*Dropdown Menus*/
+/*Dropdown Info*/
 
 .passrec {
     margin-bottom: 10px;
@@ -313,7 +313,8 @@ main {
             font-weight: 1500;
         }
 
-/*Dropdown Menus End*/
+/*Dropdown Info End*/
+
 p.round2 {
     display: block;
     text-align: center;
