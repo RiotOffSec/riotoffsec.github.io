@@ -96,13 +96,37 @@ main {
         color: #c0afa1;
     }
 
-        .welcome infop a:hover {
+        .welcomeinfo p a:hover {
             color: #753030
         }
 
 /*Index/Home End*/
 
 /*About Page*/
+
+.aboutinfo p.round2 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #c0afa1;
+    border: 3px solid #141114;
+    border-radius: 12px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2b222b;
+}
+
+    .aboutinfo p a {
+        color: #c0afa1;
+    }
+
+        .aboutinfo p a:hover {
+            color: #753030
+        }
 
 /*About End*/
 
@@ -404,6 +428,29 @@ main {
 /*Service Page End*/
 
 /*Contact Page*/
+.contactinfo p.round2 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #c0afa1;
+    border: 3px solid #141114;
+    border-radius: 12px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2b222b;
+}
+
+.contactinfo p a {
+    color: #c0afa1;
+}
+
+.contactinfo p a:hover {
+    color: #753030
+}
 /*Contact Page End*/
 
 /* Footer */
