@@ -1,4 +1,111 @@
 /* Navigation */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav {
+        position: fixed;
+        flex-wrap: nowrap;
+        top: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        background-color: #141114;
+        margin-top: -20px;
+        padding-bottom: 5px;
+    }
+
+
+    .navheader a {
+        margin-right: auto;
+        font-size: 20px;
+        font-weight: 1500;
+        display: block;
+        color: #c0afa1;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+
+    /* Navbar links */
+    .menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -60px;
+    }
+
+        .menu a {
+            padding: 10px;
+            color: #c0afa1;
+            font-size: 30px;
+            font-weight: 1000;
+            text-decoration: none;
+        }
+
+            .menu a:hover {
+                background-color: #753030;
+                color: #c0afa1;
+            }
+
+    /*Nav Links End*/
+
+    /* Nav End */}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    nav {
+        position: fixed;
+        flex-wrap: nowrap;
+        top: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        background-color: #141114;
+        margin-top: -20px;
+        padding-bottom: 5px;
+    }
+
+
+    .navheader a {
+        margin-right: auto;
+        font-size: 30px;
+        font-weight: 1500;
+        display: block;
+        color: #c0afa1;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+
+    /* Navbar links */
+    .menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -60px;
+    }
+
+        .menu a {
+            padding: 10px;
+            color: #c0afa1;
+            font-size: 30px;
+            font-weight: 1000;
+            text-decoration: none;
+        }
+
+            .menu a:hover {
+                background-color: #753030;
+                color: #c0afa1;
+            }
+
+    /*Nav Links End*/
+
+    /* Nav End */}
+
+
+
 nav {
     position: fixed;
     flex-wrap: nowrap;
