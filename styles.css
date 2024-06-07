@@ -566,6 +566,7 @@ input[type=text], select, textarea {
 }
 
 input[type=email] {
+    -moz-appearance: none;
     width: 80%;
     padding: 12px;
     background-color: #c0afa1 !important;
