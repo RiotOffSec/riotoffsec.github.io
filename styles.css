@@ -565,8 +565,10 @@ input[type=text], select, textarea {
     outline: none;
 }
 
+::-webkit-input-placeholder { color:141114; }
+::-moz-placeholder { color:141114; }
+
 input[type=email] {
-    -moz-appearance: none;
     width: 80%;
     padding: 12px;
     background-color: #c0afa1 !important;
