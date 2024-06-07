@@ -550,7 +550,7 @@ main {
 }
 
 /* Modify Box Content*/
-input[type=text], select, textarea {
+input[type=text], select {
     width: 80%;
     padding: 12px;
     background-color: #c0afa1;
@@ -570,7 +570,7 @@ input[type=email] {
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
-    margin-top: 6px;
+    margin-top: 12px;
     margin-bottom: 16px;
     resize: vertical;
     outline: none;
