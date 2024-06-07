@@ -550,7 +550,7 @@ main {
 }
 
 /* Modify Box Content*/
-input[type=text], select {
+input[type=text], select, textarea {
     width: 80%;
     padding: 12px;
     background-color: #c0afa1;
