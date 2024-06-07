@@ -554,6 +554,7 @@ input[type=text], select {
     width: 80%;
     padding: 12px;
     background-color: #c0afa1;
+    color: #141114;
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
@@ -567,6 +568,7 @@ input[type=email] {
     width: 80%;
     padding: 12px;
     background-color: #c0afa1;
+    color: #141114;
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
@@ -579,6 +581,7 @@ input[type=email] {
 
 input[type=submit] {
     background-color: #c0afa1;
+    color: #141114;
     padding: 12px 20px;
     border: none;
     border-radius: 12px;
