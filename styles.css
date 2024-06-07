@@ -553,8 +553,8 @@ main {
 input[type=text], select, textarea {
     width: 80%;
     padding: 12px;
-    background-color: #c0afa1;
-    color: #141114;
+    background-color: #c0afa1 !important;
+    color: #141114 !important;
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
@@ -567,8 +567,8 @@ input[type=text], select, textarea {
 input[type=email] {
     width: 80%;
     padding: 12px;
-    background-color: #c0afa1;
-    color: #141114;
+    background-color: #c0afa1 !important;
+    color: #141114 !important;
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
@@ -580,8 +580,8 @@ input[type=email] {
 
 
 input[type=submit] {
-    background-color: #c0afa1;
-    color: #141114;
+    background-color: #c0afa1 !important;
+    color: #141114 !important;
     padding: 12px 20px;
     border: none;
     border-radius: 12px;
@@ -589,7 +589,7 @@ input[type=submit] {
 }
 
     input[type=submit]:hover {
-        color: #753030;
+        color: #753030 !important;
     }
 
 /*Contact Page End*/
@@ -615,7 +615,7 @@ footer {
 
 .sincelink {
     padding-left: 25px;
-    color: #c0afa1;
+    color: #c0afa1 
 }
 
     .sincelink a {
@@ -623,7 +623,7 @@ footer {
     }
 
         .sincelink a:hover {
-            color: #753030;
+            color: #753030; 
         }
 
 /* Footer Closed */
