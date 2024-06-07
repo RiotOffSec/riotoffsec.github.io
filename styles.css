@@ -68,17 +68,18 @@ main {
 
 /*Index/Home Page*/
 
-.welcomeinfo p.round2 {
+.welcomeinfo {
     display: block;
     text-align: center;
     font-size: 20px;
     color: #c0afa1;
     border: 3px solid #141114;
     border-radius: 12px;
-    width: 600px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
+    padding: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #2b222b;
@@ -96,17 +97,18 @@ main {
 
 /*About Page*/
 
-.aboutinfo p.round2 {
+.aboutinfo {
     display: block;
     text-align: center;
     font-size: 20px;
     color: #c0afa1;
     border: 3px solid #141114;
     border-radius: 12px;
-    width: 600px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
+    padding: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #2b222b;
@@ -392,17 +394,18 @@ main {
 /*PDF Closed*/
 
 /*Freelance*/
-.freelance p.round2 {
+.freelance {
     display: block;
     text-align: center;
     font-size: 20px;
     color: #c0afa1;
     border: 3px solid #141114;
     border-radius: 12px;
-    width: 600px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
+    padding: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #2b222b;
@@ -420,29 +423,63 @@ main {
 /*Service Page End*/
 
 /*Contact Page*/
-.contactinfo p.round2 {
+.contactinfo {
     display: block;
     text-align: center;
     font-size: 20px;
     color: #c0afa1;
     border: 3px solid #141114;
     border-radius: 12px;
-    width: 600px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
+    padding: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #2b222b;
 }
 
-.contactinfo p a {
-    color: #c0afa1;
+/* Modify Box Content*/
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    background-color: #c0afa1;
+    border: 3px solid #141114;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
 }
 
-.contactinfo p a:hover {
-    color: #753030
+input[type=email] {
+    width: 80%;
+    padding: 12px;
+    background-color: #c0afa1;
+    border: 3px solid #141114;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
 }
+
+
+input[type=submit] {
+    background-color: #c0afa1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        color: #753030;
+    }
+
 /*Contact Page End*/
 
 /* Footer */
