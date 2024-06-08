@@ -70,7 +70,6 @@
             padding: 20px;
             margin-right: 400px;
             text-decoration: none;
-            text-align: center;
         }
 
 
@@ -88,6 +87,7 @@
                 padding-left: 30px;
                 right: 0;
                 color: #c0afa1;
+                text-align: center;
                 text-decoration: none;
             }
 
