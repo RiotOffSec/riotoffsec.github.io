@@ -60,13 +60,13 @@
         background-color: #141114;
         margin-top: -10px;
         padding-bottom: 10px;
-        text-align: center;
+        
     }
 
 
         .navheader a {
             left: 0;
-            display: block;
+            display: flex;
             color: #c0afa1;
             padding: 20px;
             padding-bottom: 30px;
