@@ -290,6 +290,45 @@ main {
         }
 /*Passrec End*/
 
+/*Smallnetad*/
+.smallnetad {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 75%;
+    display: block;
+    border: 3px solid #141114;
+    border-radius: 12px;
+}
+
+    .smallnetad details {
+        user-select: none;
+    }
+
+        .smallnetad details > summary span.icon {
+            width: 24px;
+            height: 24px;
+            transition: all 0.3s;
+        }
+
+        .smallnetad details[open] summary span.icon {
+            transform: rotate(180deg);
+        }
+
+    .smallnetad summary {
+        text-align: center;
+        cursor: pointer;
+    }
+
+        .smallnetad summary h2 {
+            display: inline;
+            font-size: 20px;
+            font-weight: 1500;
+        }
+/*Smallnetad End*/
+
 /*Webapp*/
 .webapp {
     margin-bottom: 10px;
@@ -328,8 +367,8 @@ main {
         }
 /*Webapp End*/
 
-/*Smallnetad*/
-.smallnetad {
+/*Product Pentest*/
+.productpt {
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -341,30 +380,30 @@ main {
     border-radius: 12px;
 }
 
-    .smallnetad details {
+    .productpt details {
         user-select: none;
     }
 
-        .smallnetad details > summary span.icon {
+        .productpt details > summary span.icon {
             width: 24px;
             height: 24px;
             transition: all 0.3s;
         }
 
-        .smallnetad details[open] summary span.icon {
+        .productpt details[open] summary span.icon {
             transform: rotate(180deg);
         }
 
-    .smallnetad summary {
+    .productpt summary {
         text-align: center;
         cursor: pointer;
     }
-        .smallnetad summary h2 {
+        .productpt summary h2 {
              display: inline;
             font-size: 20px;
              font-weight: 1500;
            }
-/*Smallnetad End*/
+/*Product Pentest End*/
 
 /*Externalpt*/
 .externalpt {
