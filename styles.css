@@ -516,6 +516,7 @@ main {
 
     .freelance p a {
         color: #c0afa1;
+        text-decoration: none;
     }
 
         .freelance p a:hover {
