@@ -16,9 +16,6 @@
 
     .navheader a {
         margin-right: auto;
-        font-size: 10px;
-        font-weight: 1500;
-        display: block;
         color: #c0afa1;
         padding: 10px;
         text-decoration: none;
@@ -37,8 +34,6 @@
         .menu a {
             padding: 10px;
             color: #c0afa1;
-            font-size: 30px;
-            font-weight: 1000;
             text-decoration: none;
         }
 
@@ -68,7 +63,7 @@
 
 
     .navheader a {
-        margin-right: auto;
+        margin-right: 0;
         font-size: small;
         font-weight: 15;
         display: block;
