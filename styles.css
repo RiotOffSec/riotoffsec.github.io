@@ -68,8 +68,9 @@
             display: block;
             color: #c0afa1;
             padding: 20px;
-            margin-right: 200px;
+            margin-right: 400px;
             text-decoration: none;
+            text-align: center;
         }
 
 
@@ -80,7 +81,6 @@
             flex-direction: row;
             justify-content: right;
             margin-top: -10px;
-            margin-right: 30px;
         }
 
             .menu a {
