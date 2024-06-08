@@ -574,14 +574,6 @@ input[type=email] {
     outline: none;
 }
 
-input::webkit-input-placeholder { 
-    color:141114; 
-}
-
-input::moz-placeholder { 
-    color:141114; 
-}
-
 
 input[type=submit] {
     background-color: #c0afa1 !important;
