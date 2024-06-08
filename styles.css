@@ -67,7 +67,7 @@
             left: 0;
             display: block;
             color: #c0afa1;
-            padding: 10px;
+            padding: 20px;
             margin-right: 200px;
             text-decoration: none;
         }
@@ -83,8 +83,8 @@
         }
 
             .menu a {
-                padding: 20px;
-                padding-left: 20px;
+                padding: 30px;
+                padding-left: 30px;
                 right: 0;
                 color: #c0afa1;
                 text-decoration: none;
