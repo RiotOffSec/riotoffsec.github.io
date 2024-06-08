@@ -63,8 +63,8 @@
 
 
     .navheader a {
-        margin-right: 0;
-        font-size: small;
+        left: 0;
+        font-size: 5px;
         font-weight: 15;
         display: block;
         color: #c0afa1;
@@ -79,16 +79,14 @@
         list-style-type: none;
         display: flex;
         flex-direction: row;
-        justify-content: left;
+        justify-content: right;
         margin-top: -60px;
     }
 
         .menu a {
             padding: 10px;
-            padding-right: 20px;
+            padding-left: 20px;
             color: #c0afa1;
-            font-size: 30px;
-            font-weight: 1000;
             text-decoration: none;
         }
 
