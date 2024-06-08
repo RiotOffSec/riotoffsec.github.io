@@ -85,9 +85,9 @@
             .menu a {
                 padding: 30px;
                 padding-left: 30px;
+                padding-right: 30px;
                 right: 0;
                 color: #c0afa1;
-                text-align: center;
                 text-decoration: none;
             }
 
