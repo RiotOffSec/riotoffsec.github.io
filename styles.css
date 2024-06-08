@@ -15,7 +15,7 @@
 
 
     .navheader a {
-        margin-right: auto;
+        margin-left:0;
         color: #c0afa1;
         padding: 10px;
         text-decoration: none;
@@ -64,12 +64,10 @@
 
     .navheader a {
         left: 0;
-        font-size: 5px;
-        font-weight: 15;
         display: block;
         color: #c0afa1;
         padding: 10px;
-        padding-right: 20px;
+        margin-right: 200px;
         text-decoration: none;
     }
 
@@ -86,6 +84,7 @@
         .menu a {
             padding: 10px;
             padding-left: 20px;
+            right: 0
             color: #c0afa1;
             text-decoration: none;
         }
