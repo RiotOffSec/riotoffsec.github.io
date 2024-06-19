@@ -61,7 +61,7 @@
         right: 0;
         overflow: hidden;
         background-color: #141114;
-        margin-top: -10px;
+        margin-top: 20px;
         margin-bottom: 20px;
         padding-bottom: 5px;
         
@@ -594,8 +594,7 @@ main {
 input[type=text], select, textarea {
     width: 80%;
     padding: 12px;
-    background-color: #c0afa1 !important;
-    color: #141114 !important;
+    background-color: #c0afa1;
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
@@ -605,13 +604,15 @@ input[type=text], select, textarea {
     outline: none;
 }
 
+    textarea::placeholder {
+        color: #141114 ;
+    }
 
 
 input[type=email] {
     width: 80%;
     padding: 12px;
-    background-color: #c0afa1 !important;
-    color: #141114 !important;
+    background-color: #c0afa1;
     border: 3px solid #141114;
     border-radius: 12px;
     box-sizing: border-box;
@@ -620,11 +621,13 @@ input[type=email] {
     resize: vertical;
     outline: none;
 }
+input::placeholder {
+    color: #141114 ;
+}
 
 
 input[type=submit] {
-    background-color: #c0afa1 !important;
-    color: #141114 !important;
+    background-color: #c0afa1 ;
     padding: 12px 20px;
     border: none;
     border-radius: 12px;
@@ -632,7 +635,7 @@ input[type=submit] {
 }
 
     input[type=submit]:hover {
-        color: #753030 !important;
+        color: #753030 ;
     }
 
 /*Contact Page End*/
