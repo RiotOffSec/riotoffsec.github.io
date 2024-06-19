@@ -596,13 +596,10 @@ input[type=text], select, textarea {
     outline: none;
 }
 
-    textarea::placeholder {
+    select, textarea::placeholder {
         color: #141114 ;
     }
 
-    select::placeholder{
-        color: #141114;
-    }
 
 
 input[type=email] {
