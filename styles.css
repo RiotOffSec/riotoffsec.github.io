@@ -61,7 +61,7 @@
         right: 0;
         overflow: hidden;
         background-color: #141114;
-        margin-top: 20px;
+        margin-top: -10px;
         margin-bottom: 20px;
         padding-bottom: 5px;
         
@@ -632,6 +632,10 @@ input[type=submit] {
     border: none;
     border-radius: 12px;
     cursor: pointer;
+}
+
+submit::placeholder {
+    color: #141114;
 }
 
     input[type=submit]:hover {
