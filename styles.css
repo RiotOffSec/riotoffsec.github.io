@@ -13,10 +13,8 @@
         padding-bottom: 5px;
         display: flex;
         flex-direction: row;
-        flex-basis: 0;
         align-content: center;
         justify-content: space-between;
-        flex-wrap: nowrap;
     }
 
 
@@ -64,10 +62,8 @@
         padding-bottom: 5px;
         display: flex;
         flex-direction: row;
-        flex-basis: 0;
         align-content: center;
         justify-content: space-between;
-        flex-wrap: nowrap;
     }
 
 
@@ -114,10 +110,8 @@
         padding-bottom: 5px;
         display: flex;
         flex-direction: row;
-        flex-basis: 0;
         align-content: center;
         justify-content: space-between;
-        flex-wrap: nowrap;
     }
 
 
@@ -583,7 +577,7 @@ main {
 }
 
 /* Modify Box Content*/
-input[type=text], select, textarea {
+input[type=text],input [type=""], select, textarea {
     width: 80%;
     padding: 12px;
     background-color: #c0afa1;
@@ -602,7 +596,7 @@ input[type=text], select, textarea {
 
 
 
-input[type=email] {
+input[type=email],input {
     width: 80%;
     padding: 12px;
     background-color: #c0afa1;
@@ -611,7 +605,6 @@ input[type=email] {
     box-sizing: border-box;
     margin-top: 12px;
     margin-bottom: 16px;
-    resize: vertical;
     outline: none;
 }
 input::placeholder {
@@ -627,7 +620,8 @@ input[type=submit] {
     cursor: pointer;
 }
 
-submit::placeholder {
+input[type=submit]::placeholder {
+    background-color: #c0afa1 ;
     color: #141114;
 }
 
