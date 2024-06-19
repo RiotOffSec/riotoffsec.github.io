@@ -603,6 +603,10 @@ input[type=text], select, textarea {
         color: #141114 ;
     }
 
+    select::placeholder{
+        color: #141114;
+    }
+
 
 input[type=email] {
     width: 80%;
