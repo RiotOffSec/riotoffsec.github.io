@@ -1,57 +1,6 @@
 /* Navigation */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        overflow: hidden;
-        background-color: #141114;
-        margin-top: -10px;
-        margin-bottom: 20px;
-        padding-bottom: 5px;
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: space-between;
-    }
-
-
-    .navheader a {
-        left: 0;
-        color: #c0afa1;
-        padding: 5px;
-        margin-top: 20px;
-        text-decoration: none;
-    }
-
-
-    /* Navbar links */
-    .menu {
-        list-style-type: none;
-        margin-top: -10px;
-    }
-
-        .menu a {
-            margin-right: 30px;
-            right: 0;
-            color: #c0afa1;
-            text-decoration: none;
-        }
-
-            .menu a:hover {
-                background-color: #753030;
-                color: #c0afa1;
-            }
-}
-    /*Nav Links End*/
-
-    /* Nav End */
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
 
     nav {
         position: fixed;
@@ -60,7 +9,6 @@
         right: 0;
         overflow: hidden;
         background-color: #141114;
-        margin-top: -10px;
         margin-bottom: 20px;
         padding-bottom: 5px;
         display: flex;
@@ -81,13 +29,63 @@
 
     /* Navbar links */
     .menu {
+        display: inline-flex;
         list-style-type: none;
-        margin-top: -10px;
     }
 
         .menu a {
             margin-right: 30px;
-            right: 0;
+            color: #c0afa1;
+            text-decoration: none;
+        }
+
+            .menu a:hover {
+                background-color: #753030;
+                color: #c0afa1;
+            }
+}
+
+    /*Nav Links End*/
+
+    /* Nav End */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        background-color: #141114;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 0;
+        align-content: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+
+    .navheader a {
+        left: 0;
+        color: #c0afa1;
+        text-decoration: none;
+    }
+
+
+    /* Navbar links */
+    .menu {
+        display: inline-flex;
+        list-style-type: none;
+    }
+
+        .menu a {
+            margin-right: 30px;
             color: #c0afa1;
             text-decoration: none;
         }
@@ -112,46 +110,45 @@
         right: 0;
         overflow: hidden;
         background-color: #141114;
-        margin-top: -10px;
         margin-bottom: 20px;
         padding-bottom: 5px;
         display: flex;
         flex-direction: row;
+        flex-basis: 0;
         align-content: center;
         justify-content: space-between;
+        flex-wrap: nowrap;
     }
 
 
-        .navheader a {
-            left: 0;
+    .navheader a {
+        left: 0;
+        color: #c0afa1;
+        text-decoration: none;
+    }
+
+
+    /* Navbar links */
+    .menu {
+        display: inline-flex;
+        list-style-type: none;
+    }
+
+        .menu a {
+            margin-right: 30px;
             color: #c0afa1;
             text-decoration: none;
         }
 
-
-/* Navbar links */
-        .menu {
-            list-style-type: none;
-            margin-top: -10px;
-        }
-
-            .menu a {
-                margin-right: 30px;
-                right: 0;
+            .menu a:hover {
+                background-color: #753030;
                 color: #c0afa1;
-                text-decoration: none;
             }
-
-                .menu a:hover {
-                    background-color: #753030;
-                    color: #c0afa1;
-                }
-
 }
 
-/*Nav Links End*/
+    /*Nav Links End*/
 
-/* Nav End */
+    /* Nav End */
 
 /*Main Body*/
 
